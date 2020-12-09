@@ -1,0 +1,58 @@
+{
+  "variantId": "fpr_fenrir_p_raider",
+  "hullId": "fpr_fenrir_p",
+  "displayName": "Raider",
+  "goalVariant": false,
+  "fluxCapacitors": 18,
+  "fluxVents": 17,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "augmentedengines",
+    "converted_hangar"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "dualflak"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "arbalest",
+        "WS0006": "arbalest"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan",
+        "WS0002": "vulcan",
+        "WS0003": "vulcan",
+        "WS0004": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WSBI01": "fpr_cruiser_tomahawk_launcher_left",
+        "WSBI02": "fpr_cruiser_tomahawk_launcher_right"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+			"talon_wing"
+  ]
+}

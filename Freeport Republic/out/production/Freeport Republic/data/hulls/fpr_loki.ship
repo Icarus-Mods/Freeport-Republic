@@ -1,0 +1,237 @@
+{
+  "hullName": "Loki",
+  "hullId": "fpr_loki",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/fpr_loki.png",
+  "style": "KILLIA_DRIVE_YARDS",
+  "height": 135,
+  "width": 92,
+  "center": [46, 67.5],
+  "collisionRadius": 70.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 69,
+  "viewOffset": 0,
+  "builtInMods": [
+    "fpr_AkoyaEngines"
+  ],
+  "builtInWings": [
+    "fpr_hel_wing",
+    "fpr_hel_wing"
+  ],
+  "builtInWeapons": {
+    "WS0003": "blinker_green",
+    "vector1": "fpr_vector",
+    "vector2": "fpr_vector",
+    "vector3": "fpr_vector",
+    "vector4": "fpr_vector",
+    "vector5": "fpr_vector",
+    "vector6": "fpr_vector"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [35, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-36.5, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -12.5, 18,
+        -10.5, 22,
+        -6.5, 18,
+        -10.5, 14,
+        -15.5, 18
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -12.5, -18,
+        -15.5, -18,
+        -10.5, -14,
+        -6.5, -18,
+        -10.5, -22
+      ]
+    },
+    {
+      "id": "vector1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [41.5, 13.5]
+    },
+    {
+      "id": "vector2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [41.5, -13.5]
+    },
+    {
+      "id": "vector3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [25, 18.5]
+    },
+    {
+      "id": "vector4",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [25, -18.5]
+    },
+    {
+      "id": "vector5",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-41, 12.5]
+    },
+    {
+      "id": "vector6",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-41, -12.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -0,
+      "locations": [64.5, -11.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-23.5, 25],
+      "length": 37.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_LARGE_BLUE"
+    },
+    {
+      "location": [-23.5, -25],
+      "length": 37.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_LARGE_BLUE"
+    },
+    {
+      "location": [-37.5, 15],
+      "length": 31.5,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_SMALL_BLUE"
+    },
+    {
+      "location": [-37.5, -15],
+      "length": 31.5,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_SMALL_BLUE"
+    },
+    {
+      "location": [-63.5, -0],
+      "length": 73.5,
+      "width": 17,
+      "angle": 180,
+      "contrailSize": 17,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_LARGE_BLUE"
+    },
+    {
+      "location": [-23.5, 25],
+      "length": 19,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_CORE"
+    },
+    {
+      "location": [-23.5, -25],
+      "length": 19,
+      "width": 11,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_CORE"
+    },
+    {
+      "location": [-63.5, -0],
+      "length": 33.5,
+      "width": 24,
+      "angle": 180,
+      "contrailSize": 24,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_CORE"
+    }
+  ],
+  "bounds": [
+    -65.5, -7.5,
+    -39.5, -15,
+    -15.5, -30,
+    -14, -45.5,
+    -6.5, -45.5,
+    2, -29.5,
+    15.5, -21.5,
+    30, -21,
+    45, -13,
+    45, 13,
+    30, 21,
+    15.5, 21.5,
+    2, 29.5,
+    -6.5, 45.5,
+    -14, 45.5,
+    -15.5, 30,
+    -39.5, 15,
+    -65.5, 7.5
+  ]
+}

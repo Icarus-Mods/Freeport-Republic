@@ -1,0 +1,54 @@
+{
+  "id": "fpr_harpy_upper_trident_launcher_left",
+  "specClass": "projectile",
+  "projectileSpecId": "fpr_trident_torpedo",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/build-in/fpr_harpy_torpedo_tubes_upper_hardpoint_base_left.png",
+  "turretGunSprite": "graphics/weapons/build-in/fpr_cruiser_torpedo_tubes_hardpoint_recoil.png",
+  "hardpointSprite": "graphics/weapons/build-in/fpr_harpy_torpedo_tubes_upper_hardpoint_base_left.png",
+  "hardpointGunSprite": "graphics/weapons/build-in/fpr_cruiser_torpedo_tubes_hardpoint_recoil.png",
+  "renderAboveAllWeapons": 0,
+  "visualRecoil": 6,
+  "renderHints": [
+    RENDER_BARREL_BELOW
+  ],
+  "turretOffsets": [
+    3.5,
+    0,
+    3.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    7.5,
+    0,
+    7.5,
+    -0
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 35,
+    "spread": 25,
+    "particleSizeMin": 12,
+    "particleSizeRange": 16,
+    "particleDuration": 0.8,
+    "particleCount": 18,
+    "particleColor": [
+      26,
+      65,
+      175,
+      255
+    ]
+  },
+  "textureType": ROUGH,
+  "fireSoundTwo": "reaper_fire"
+}

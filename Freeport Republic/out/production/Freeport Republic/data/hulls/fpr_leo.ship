@@ -1,0 +1,134 @@
+{
+  "hullName": "FE-06MS Leo",
+  "hullId": "fpr_leo",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/FE-06MS Leo/fpr_leo_hip.png",
+  "style": "MIDLINE",
+  "height": 27,
+  "width": 28,
+  "center": [14, 15],
+  "collisionRadius": 24.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 22.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "HEAD": "fpr_leo_head",
+    "L_SHOULDER": "fpr_leo_shoulder_left",
+    "L_S_ARM": "fpr_leo_shortarm_left",
+    "R_HEAVYRIFLE": "fpr_leo_heavyautorifle",
+    "R_SHOULDER": "fpr_leo_shoulder_right",
+    "R_S_ARM": "fpr_leo_shortarm_right",
+    "TORSO": "fpr_leo_torso"
+  },
+  "weaponSlots": [
+    {
+      "id": "L_SHOULDER",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-0.5, -1]
+    },
+    {
+      "id": "R_SHOULDER",
+      "size": "MEDIUM",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-0.5, 1]
+    },
+    {
+      "id": "L_S_ARM",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-0.5, -1]
+    },
+    {
+      "id": "R_S_ARM",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-0.5, 1]
+    },
+    {
+      "id": "R_HEAVYRIFLE",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 45,
+      "angle": 0,
+      "locations": [0.5, 2]
+    },
+    {
+      "id": "TORSO",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-2.5, -0],
+      "renderOrderMod": 1
+    },
+    {
+      "id": "HEAD",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 0,
+      "locations": [-0.5, -0],
+      "renderOrderMod": 2
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-7.5, -2],
+      "length": 18.942076,
+      "width": 7.535974,
+      "angle": -170,
+      "contrailSize": 7.535974,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_FIGHTER_ENGINE"
+    },
+    {
+      "location": [-7.5, 2],
+      "length": 18.942076,
+      "width": 7.535974,
+      "angle": 170,
+      "contrailSize": 7.535974,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_FIGHTER_ENGINE"
+    },
+    {
+      "location": [-11, 10],
+      "length": 6.5,
+      "width": 3,
+      "angle": 180,
+      "contrailSize": 3,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_FIGHTER_ENGINE"
+    },
+    {
+      "location": [-11, -10],
+      "length": 6.5,
+      "width": 3,
+      "angle": -180,
+      "contrailSize": 3,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_FIGHTER_ENGINE"
+    }
+  ],
+  "bounds": [
+    -6.5, 8,
+    8, 5.5,
+    8, -5.5,
+    -6.5, -8
+  ]
+}

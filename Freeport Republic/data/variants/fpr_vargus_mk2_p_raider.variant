@@ -1,0 +1,29 @@
+{
+  "variantId": "fpr_vargus_mk2_p_raider",
+  "hullId": "fpr_vargus_mk2_p",
+  "displayName": "Raider",
+  "goalVariant": false,
+  "fluxCapacitors": 5,
+  "fluxVents": 13,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "reinforcedhull",
+    "ill_advised"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "railgun",
+        "WS0002": "hellbore",
+        "WS0003": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "piranha_wing"
+  ]
+}
