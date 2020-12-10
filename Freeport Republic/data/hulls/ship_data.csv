@@ -17,8 +17,8 @@ Loki,fpr_loki,Drone Frigate,Killia Drive Yards,fpr_skimmerdrive,9,1400,380,2200,
 Vargus Mk.II,fpr_vargus_mk2,Mobile Suit Carrier,Killia Drive Yards,targetingfeed,11,4500,480,2500,,180,55,2,75,50,30,30,50,380,FRONT,,260,0.4,1.0,,,50,100,80,60,2,30,9,34500,5,10,360,0.30,12,12,CARRIER,fpr_ship_bp,,0.4,2,3,705
 Vargus Mk.II (P),fpr_vargus_mk2_p,Modified Carrier,Killia Drive Yards,targetingfeed,11,4300,450,2800,,200,65,1,70,45,30,30,50,380,FRONT,,240,0.4,1.1,,,45,90,60,60,2,30,9,32500,5,11,330,0.30,12,12,"CARRIER, COMBAT","pirates, pirate_bp",,0.4,2,3,704
 Vargus,fpr_vargus,Freighter,Killia Drive Yards,flarelauncher_active,6,3600,250,2000,,100,35,,65,40,25,25,40,380,FRONT,,130,0.5,1.0,,,15,30,320,80,2,40,9,25000,5,18,240,0.25,4,4,"CIVILIAN, FREIGHTER",fpr_ship_bp,,0.6,2,3,703
-Sleipnir,fpr_sleipnir,Support Destroyer,Killia Drive Yards,fpr_stasisEmitter,10,4600,540,3600,,200,65,,85,60,30,35,55,350,FRONT,,280,0.33,1.0,,,40,80,120,70,2,35,10,34000,5,10,360,0.30,11,11,,fpr_ship_bp,,0.4,2,3,702
-Sleipnir (P),fpr_sleipnir_p,Support Destroyer,Killia Drive Yards,acausaldisruptor,10,4600,520,3400,,220,65,,85,60,30,35,55,350,FRONT,,260,0.4,1.1,,,40,80,140,70,2,35,10,31500,5,10,360,0.30,11,11,,"pirates, pirate_bp",,0.4,2,3,701
+Sleipnir,fpr_sleipnir,Support Destroyer,Killia Drive Yards,fpr_SensorBurst,10,4600,540,3600,,200,65,,85,60,30,35,55,350,FRONT,,280,0.33,1.0,,,40,80,120,70,2,35,10,34000,5,10,360,0.30,11,11,,fpr_ship_bp,,0.4,2,3,702
+Sleipnir (P),fpr_sleipnir_p,Support Destroyer,Killia Drive Yards,fpr_SensorBurst,10,4600,520,3400,,220,65,,85,60,30,35,55,350,FRONT,,260,0.4,1.1,,,40,80,140,70,2,35,10,31500,5,10,360,0.30,11,11,,"pirates, pirate_bp",,0.4,2,3,701
 Naga,fpr_naga,Destroyer,Killia Drive Yards,ammofeed,10,5200,560,3700,,240,100,,95,70,40,30,60,420,FRONT,,300,0.4,1.0,,,50,80,90,60,2,30,10,42000,5,14,380,0.25,11,11,,fpr_ship_bp,,0.4,2,3,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
