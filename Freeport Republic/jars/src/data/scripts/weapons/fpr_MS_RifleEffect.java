@@ -9,17 +9,11 @@ import org.lazywizard.lazylib.MathUtils;
  */
 public class fpr_MS_RifleEffect implements EveryFrameWeaponEffectPlugin {
 
-    private final float TORSO_OFFSET=-0, LEFT_ARM_OFFSET=-76, RIGHT_ARM_OFFSET=-5, MAX_OVERLAP = 10;
-    private boolean runOnce = false, lockNloaded = false;
-    private ShipSystemAPI system;
+    private final float TORSO_OFFSET = -15, LEFT_ARM_OFFSET = -76, RIGHT_ARM_OFFSET = -5, MAX_OVERLAP = 10;
+    private boolean runOnce = false;
     private ShipAPI ship;
-    private AnimationAPI anim;
     private WeaponAPI armL, armR, pauldronL, pauldronR, torso;
-    private float delay = 0.1f;
-    private float timer = 0;
-    private float SPINUP = 0.02f;
-    private float SPINDOWN = 10f;
-    private float overlap = 0, heat = 0;
+    private float overlap = 0;
 
     @Override
     public void advance(float amount, CombatEngineAPI engine, WeaponAPI weapon) {
@@ -27,7 +21,6 @@ public class fpr_MS_RifleEffect implements EveryFrameWeaponEffectPlugin {
         if (!runOnce) {
             runOnce = true;
             ship = weapon.getShip();
-            system = ship.getSystem();
             for (WeaponAPI w : ship.getAllWeapons()) {
                 switch (w.getSlot().getId()) {
                     case "TORSO":
@@ -81,7 +74,7 @@ public class fpr_MS_RifleEffect implements EveryFrameWeaponEffectPlugin {
         float global = ship.getFacing();
         float aim = MathUtils.getShortestRotation(global, weapon.getCurrAngle());
 
-        torso.setCurrAngle(global + sineA * TORSO_OFFSET + aim * 0.3f);
+        torso.setCurrAngle(global + sineA * TORSO_OFFSET + aim * 0.4f);
 
         armR.setCurrAngle(weapon.getCurrAngle() + RIGHT_ARM_OFFSET);
 
@@ -95,7 +88,7 @@ public class fpr_MS_RifleEffect implements EveryFrameWeaponEffectPlugin {
                         ((overlap + aim * 0.25f) * (1 - sinceB))
         );
 
-        pauldronL.setCurrAngle(torso.getCurrAngle() + MathUtils.getShortestRotation(torso.getCurrAngle(), armL.getCurrAngle()) * 0.6f);
+        pauldronL.setCurrAngle(torso.getCurrAngle() + MathUtils.getShortestRotation(torso.getCurrAngle(), armL.getCurrAngle()) * 0.4f);
 
     }
 }

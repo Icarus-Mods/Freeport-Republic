@@ -1,9 +1,0 @@
-{
-	"id":"freeport",
-	"name":"Freeport Republic",
-	"author":"Icarus",
-	"version":"0.1 prerelease",
-	"description":"A soon to be Faction Mod",
-	"gameVersion":"0.9.1a-RC8",
-	"jars": ["jars/Freeport Republic.jar"],
-}

@@ -1,7 +1,10 @@
 {
-  "designTypeColors": {
+	"plugins":{
+		"fpr_combatPlugin":"data.scripts.plugins.fpr_combatPlugin",
+	},
+	"designTypeColors": {
 		"Freeport Republic": [197,143,15,255],
-  },
+	},
     "graphics": {
 		"blueprint_packages": {
 		  "fpr_ship_package": "graphics/icons/cargo/fpr_ship_package_bp.png",
@@ -10,5 +13,9 @@
 		  "fpr_ams_package": "graphics/icons/cargo/fpr_ship_package_bp.png",
 		  "fpr_fe_ms_package": "graphics/icons/cargo/fpr_ship_package_bp.png",
 		},
+		"fx": {
+			"fpr_SensorBurst": "graphics/fx/fpr_SensorBurst.png",
+			"fpr_CommandUplink": "graphics/fx/fpr_CommandUplink.png",
+		}
 	}
 }

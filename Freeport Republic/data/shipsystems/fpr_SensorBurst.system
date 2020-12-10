@@ -1,0 +1,18 @@
+{
+	"id":"fpr_SensorBurst",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	
+	"aiScript":"data.scripts.shipsystems.ai.fpr_SensorBurstAI",
+	"statsScript":"data.scripts.shipsystems.fpr_SensorBurst",
+	
+
+	"loopSound":"system_fortress_shield_loop",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":0,
+		"averageSpeedIncrease":0,
+	}
+}

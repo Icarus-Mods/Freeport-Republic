@@ -1,0 +1,20 @@
+{
+	"id":"fpr_stasisEmitter",
+	"type":"STAT_MOD",
+	"aiType":"ENTROPY_AMPLIFIER",
+	
+	"statsScript":"data.scripts.shipsystems.fpr_stasisEmitter",
+		
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_entropy",
+	"loopSound":"system_entropy_loop",
+	"deactivateSound":"system_entropy_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}
+
+
+
+
