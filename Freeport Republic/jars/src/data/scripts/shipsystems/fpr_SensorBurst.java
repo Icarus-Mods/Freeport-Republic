@@ -35,10 +35,9 @@ public class fpr_SensorBurst extends BaseShipSystemScript {
         }
 
 
-
         SpriteAPI ring = Global.getSettings().getSprite("graphics/fx/fpr_SensorBurst.png");
         ring.setAlphaMult(effectLevel);
-        if (state == State.OUT){
+        if (state == State.OUT) {
             effectLevel = 1;
         }
         MagicRender.singleframe(
@@ -50,10 +49,10 @@ public class fpr_SensorBurst extends BaseShipSystemScript {
                 true
         );
 
-            for (ShipAPI shipToDebuff : AIUtils.getNearbyEnemies(ship, debuffRange * effectLevel)) {
-                fpr_combatPlugin.addToList(shipToDebuff, debuffDuration);
-                //Global.getCombatEngine().addFloatingText(ship.getLocation(),"hit",20,Color.WHITE,ship,0,0.3f);
-            }
+        for (ShipAPI shipToDebuff : AIUtils.getNearbyEnemies(ship, debuffRange * effectLevel)) {
+            fpr_combatPlugin.addToList(shipToDebuff, debuffDuration);
+            //Global.getCombatEngine().addFloatingText(ship.getLocation(),"hit",20,Color.WHITE,ship,0,0.3f);
+        }
 
     }
 

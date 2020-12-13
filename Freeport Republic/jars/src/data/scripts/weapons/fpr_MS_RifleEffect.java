@@ -9,7 +9,7 @@ import org.lazywizard.lazylib.MathUtils;
  */
 public class fpr_MS_RifleEffect implements EveryFrameWeaponEffectPlugin {
 
-    private final float TORSO_OFFSET = -15, LEFT_ARM_OFFSET = -76, RIGHT_ARM_OFFSET = -5, MAX_OVERLAP = 10;
+    private final float TORSO_OFFSET = -15, LEFT_ARM_OFFSET = -50, RIGHT_ARM_OFFSET = 20, MAX_OVERLAP = 10;
     private boolean runOnce = false;
     private ShipAPI ship;
     private WeaponAPI armL, armR, pauldronL, pauldronR, torso;

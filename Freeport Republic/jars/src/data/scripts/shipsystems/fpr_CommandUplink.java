@@ -67,6 +67,7 @@ public class fpr_CommandUplink extends BaseShipSystemScript {
 
     private void applyBuff(ShipAPI ship) {
         ship.setJitterUnder(ship, new Color(243, 144, 32, 230), 2f, 6, 4);
+        ship.setJitterShields(false);
         String id = "fpr_CommandUplink";
         ship.getMutableStats().getEnergyWeaponRangeBonus().modifyPercent(id, rangeBonus);
         ship.getMutableStats().getBallisticWeaponRangeBonus().modifyPercent(id, rangeBonus);
@@ -74,6 +75,7 @@ public class fpr_CommandUplink extends BaseShipSystemScript {
 
     private void unapplyBuff(ShipAPI ship) {
         String id = "fpr_CommandUplink";
+        ship.setJitterShields(true);
         ship.getMutableStats().getEnergyWeaponRangeBonus().unmodify(id);
         ship.getMutableStats().getBallisticWeaponRangeBonus().unmodify(id);
     }

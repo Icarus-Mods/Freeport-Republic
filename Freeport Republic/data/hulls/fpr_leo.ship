@@ -27,8 +27,8 @@
       "type": "DECORATIVE",
       "mount": "TURRET",
       "arc": 360,
-      "angle": 0,
-      "locations": [-0.5, -1]
+      "angle": -40,
+      "locations": [-0.5, 5]
     },
     {
       "id": "R_SHOULDER",
@@ -36,8 +36,8 @@
       "type": "DECORATIVE",
       "mount": "TURRET",
       "arc": 360,
-      "angle": 0,
-      "locations": [-0.5, 1]
+      "angle": -10,
+      "locations": [-0.5, -5]
     },
     {
       "id": "L_S_ARM",
@@ -45,7 +45,7 @@
       "type": "DECORATIVE",
       "mount": "TURRET",
       "arc": 360,
-      "angle": 0,
+      "angle": -65,
       "locations": [-0.5, -1]
     },
     {
@@ -54,7 +54,7 @@
       "type": "DECORATIVE",
       "mount": "TURRET",
       "arc": 360,
-      "angle": 0,
+      "angle": -5,
       "locations": [-0.5, 1]
     },
     {
@@ -72,7 +72,7 @@
       "type": "DECORATIVE",
       "mount": "TURRET",
       "arc": 360,
-      "angle": 0,
+      "angle": -15,
       "locations": [-2.5, -0],
       "renderOrderMod": 1
     },
