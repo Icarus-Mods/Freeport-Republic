@@ -3,7 +3,7 @@
   "hullId": "fpr_leo",
   "hullSize": "FIGHTER",
   "spriteName": "graphics/ships/fighters/FE-06MS Leo/fpr_leo_hip.png",
-  "style": "MIDLINE",
+  "style": "KILLIA_DRIVE_YARDS",
   "height": 27,
   "width": 28,
   "center": [14, 15],
@@ -27,8 +27,8 @@
       "type": "DECORATIVE",
       "mount": "TURRET",
       "arc": 360,
-      "angle": 0,
-      "locations": [-0.5, -1]
+      "angle": -20,
+      "locations": [-1, 7.5]
     },
     {
       "id": "R_SHOULDER",
@@ -36,8 +36,8 @@
       "type": "DECORATIVE",
       "mount": "TURRET",
       "arc": 360,
-      "angle": 0,
-      "locations": [-0.5, 1]
+      "angle": 20,
+      "locations": [-1, -7.5]
     },
     {
       "id": "L_S_ARM",
@@ -45,8 +45,8 @@
       "type": "DECORATIVE",
       "mount": "TURRET",
       "arc": 360,
-      "angle": 0,
-      "locations": [-0.5, -1]
+      "angle": -45,
+      "locations": [-0.5, 4.5]
     },
     {
       "id": "R_S_ARM",
@@ -54,17 +54,17 @@
       "type": "DECORATIVE",
       "mount": "TURRET",
       "arc": 360,
-      "angle": 0,
-      "locations": [-0.5, 1]
+      "angle": 20,
+      "locations": [-0.5, -4.5]
     },
     {
       "id": "R_HEAVYRIFLE",
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "TURRET",
-      "arc": 45,
-      "angle": 0,
-      "locations": [0.5, 2]
+      "arc": 40,
+      "angle": 10,
+      "locations": [-1, 3]
     },
     {
       "id": "TORSO",
@@ -81,7 +81,7 @@
       "size": "MEDIUM",
       "type": "BUILT_IN",
       "mount": "TURRET",
-      "arc": 135,
+      "arc": 90,
       "angle": 0,
       "locations": [-0.5, -0],
       "renderOrderMod": 2

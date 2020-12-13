@@ -5,11 +5,13 @@ import com.fs.starfarer.api.combat.*;
 import org.lazywizard.lazylib.MathUtils;
 
 /**
- * @author Tartiflette  (old position data: TORSO_OFFSET=-45, LEFT_ARM_OFFSET=-75, RIGHT_ARM_OFFSET=-25, MAX_OVERLAP = 10)
+ * @author Tartiflette
+ * (old position data: TORSO_OFFSET=-45, LEFT_ARM_OFFSET=-75, RIGHT_ARM_OFFSET=-25, MAX_OVERLAP = 10)
+ * (Newer Position Data: TORSO_OFFSET = -15, LEFT_ARM_OFFSET = -76, RIGHT_ARM_OFFSET = -5, MAX_OVERLAP = 10;)
  */
 public class fpr_MS_RifleEffect implements EveryFrameWeaponEffectPlugin {
 
-    private final float TORSO_OFFSET = -15, LEFT_ARM_OFFSET = -76, RIGHT_ARM_OFFSET = -5, MAX_OVERLAP = 10;
+    private final float TORSO_OFFSET = -5, LEFT_ARM_OFFSET = -70, RIGHT_ARM_OFFSET = 5, MAX_OVERLAP = 10;
     private boolean runOnce = false;
     private ShipAPI ship;
     private WeaponAPI armL, armR, pauldronL, pauldronR, torso;
@@ -78,7 +80,7 @@ public class fpr_MS_RifleEffect implements EveryFrameWeaponEffectPlugin {
 
         armR.setCurrAngle(weapon.getCurrAngle() + RIGHT_ARM_OFFSET);
 
-        pauldronR.setCurrAngle(global + sineA * TORSO_OFFSET * 0.5f + aim * 0.75f + RIGHT_ARM_OFFSET * 0.5f);
+        pauldronR.setCurrAngle(global + sineA * TORSO_OFFSET * 0.5f + aim * 0.60f + RIGHT_ARM_OFFSET * 0.5f);
 
         armL.setCurrAngle(
                 global

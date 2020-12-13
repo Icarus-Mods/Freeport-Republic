@@ -10,13 +10,16 @@ Type-24 Rifter,fpr_rifter,Interceptor,Killia Drive Yards,flarelauncher_fighter,,
 FE-06MS Leo,fpr_leo,Mobile Suit,Farstar Electronics,,,550,45,250,,50,0,,200,250,250,100,100,45,NONE,,,,,,,1,1,,,,,,,,,,,,,,fpr_fe_ms_bp,,0,,,
 #FE-06MS Leo Fencer Type,fpr_leo_fencer,Mobile Suit,Farstar Electronics,,,600,50,250,,50,0,,240,260,260,120,120,55,NONE,,,,,,,1,1,,,,,,,,,,,,,,fpr_fe_ms_bp,,0,,,
 #FE-06MS Leo Heavy Type,fpr_leo_heavy,Mobile Suit,Farstar Electronics,,,600,50,250,,50,0,,200,250,250,100,100,55,NONE,,,,,,,1,1,,,,,,,,,,,,,,fpr_fe_ms_bp,,0,,,
+#FE-06MS Leo Space Type,fpr_leo_space,Mobile Suit,Farstar Electronics,,,600,50,250,,50,0,,220,250,250,100,100,55,NONE,,,,,,,1,1,,,,,,,,,,,,,,fpr_fe_ms_bp,,0,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Loki,fpr_loki,Drone Frigate,Killia Drive Yards,fpr_skimmerdrive,9,1400,380,2200,,160,50,2,160,180,130,90,250,200,FRONT,,220,0.3,0.9,,,10,20,20,20,1,20,10,33000,10,20,220,0.25,8,8,,fpr_ship_bp,0.75,0.5,2,2,
+Loki,fpr_loki,Drone Frigate,Killia Drive Yards,fpr_skimmerdrive,9,1400,380,2200,,160,50,2,160,175,130,90,250,200,FRONT,,220,0.3,0.9,,,10,20,20,20,1,20,10,33000,10,20,220,0.25,8,8,,fpr_ship_bp,0.75,0.5,2,2,
+Prowler,fpr_prowler,Interdiction Frigate,Killia Drive Yards,fpr_stasisEmitter,7,1500,380,2000,,130,50,,180,175,130,90,220,180,FRONT,,200,0.4,0.9,,,15,25,35,20,1,20,10,24000,8,12,230,0.25,5,5,,fpr_ship_bp,,0.4,2,2,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Vargus Mk.II,fpr_vargus_mk2,Mobile Suit Carrier,Killia Drive Yards,targetingfeed,11,4500,480,2500,,180,55,2,75,50,30,30,50,380,FRONT,,260,0.4,1.0,,,50,100,80,60,2,30,9,34500,5,10,360,0.30,12,12,CARRIER,fpr_ship_bp,,0.4,2,3,705
 Vargus Mk.II (P),fpr_vargus_mk2_p,Modified Carrier,Killia Drive Yards,targetingfeed,11,4300,450,2800,,200,65,1,70,45,30,30,50,380,FRONT,,240,0.4,1.1,,,45,90,60,60,2,30,9,32500,5,11,330,0.30,12,12,"CARRIER, COMBAT","pirates, pirate_bp",,0.4,2,3,704
 Vargus,fpr_vargus,Freighter,Killia Drive Yards,flarelauncher_active,6,3600,250,2000,,100,35,,65,40,25,25,40,380,FRONT,,130,0.5,1.0,,,15,30,320,80,2,40,9,25000,5,18,240,0.25,4,4,"CIVILIAN, FREIGHTER",fpr_ship_bp,,0.6,2,3,703
+Nomad,fpr_nomad,Tanker,Killia Drive Yards,flarelauncher_active,6,3300,260,2000,,100,35,,65,40,25,25,40,380,FRONT,,130,0.5,1.0,,,15,30,40,550,2,275,9,25000,5,18,240,0.25,4,4,"CIVILIAN, TANKER",fpr_ship_bp,,0.6,2,3,703
 Sleipnir,fpr_sleipnir,Support Destroyer,Killia Drive Yards,fpr_SensorBurst,10,4600,540,3600,,200,65,,85,60,30,35,55,350,FRONT,,280,0.33,1.0,,,40,80,120,70,2,35,10,34000,5,10,360,0.30,11,11,,fpr_ship_bp,,0.4,2,3,702
 Sleipnir (P),fpr_sleipnir_p,Support Destroyer,Killia Drive Yards,fpr_SensorBurst,10,4600,520,3400,,220,65,,85,60,30,35,55,350,FRONT,,260,0.4,1.1,,,40,80,140,70,2,35,10,31500,5,10,360,0.30,11,11,,"pirates, pirate_bp",,0.4,2,3,701
 Naga,fpr_naga,Destroyer,Killia Drive Yards,ammofeed,10,5200,560,3700,,240,100,,95,70,40,30,60,420,FRONT,,300,0.4,1.0,,,50,80,90,60,2,30,10,42000,5,14,380,0.25,11,11,,fpr_ship_bp,,0.4,2,3,
@@ -24,8 +27,9 @@ Naga,fpr_naga,Destroyer,Killia Drive Yards,ammofeed,10,5200,560,3700,,240,100,,9
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 Fenrir,fpr_fenrir,Light Cruiser,Killia Drive Yards,maneuveringjets,16,7000,800,6800,,380,120,,85,50,35,25,25,680,FRONT,,260,0.4,0.9,,,80,160,180,120,3,40,9,85000,4,14,420,0.25,17,17,,fpr_ship_bp,,0.5,2,3,708
 Fenrir (P),fpr_fenrir_p,Light Cruiser,Killia Drive Yards,burndrive,15,6900,790,6600,,400,120,,85,50,35,25,25,680,FRONT,,240,0.45,1.0,,,80,160,200,120,3,40,9,82500,4,14,420,0.25,16,16,,"pirates, pirate_bp",,0.6,2,3,707
-Harpy,fpr_harpy,Light Missile Cruiser,Killia Drive Yards,fpr_SensorBurst,17,6800,820,6800,,380,110,,80,45,35,25,25,660,FRONT,,260,0.4,0.9,,,80,160,160,110,3,36,9,88000,4,16,420,0.25,18,18,,fpr_ship_bp,,0.5,2,3,706
-Gungnir,fpr_gungnir,Line Cruiser,Killia Drive Yards,fpr_CommandUplink,18,9000,1250,8000,,750,150,,60,40,30,20,20,1300,FRONT,,200,0.4,1.1,,,140,260,125,100,3,33,8,115000,4,18,480,0.25,22,22,,fpr_ship_bp,,0.4,2,3,701
+Harpy,fpr_harpy,Light Missile Cruiser,Killia Drive Yards,maneuveringjets,17,6800,820,6800,,380,110,,80,45,35,25,25,660,FRONT,,260,0.4,0.9,,,80,160,160,110,3,36,9,88000,4,16,420,0.25,18,18,,fpr_ship_bp,,0.5,2,3,706
+Gungnir,fpr_gungnir,Line Cruiser,Killia Drive Yards,highenergyfocus,18,9000,1250,8000,,750,150,,60,40,30,20,20,1300,FRONT,,200,0.4,1.1,,,140,260,125,100,3,33,8,115000,4,18,480,0.25,22,22,,fpr_ship_bp,,0.4,2,3,701
+Gungnir (CS),fpr_gungnir_cs,Command Cruiser,Killia Drive Yards,fpr_CommandUplink,20,9200,1300,8000,,750,160,1,60,40,30,20,20,1300,FRONT,,220,0.4,1.1,,,155,260,110,100,3,33,8,115000,4,22,480,0.25,22,22,,fpr_ship_bp,,0.4,2,3,701
 Nidhoggur,fpr_nidhoggur,Flight-Deck Cruiser,Killia Drive Yards,flarelauncher_active,,7000,1000,6500,,540,130,4,65,40,25,20,20,1500,FRONT,,160,0.4,1.2,,,160,320,245,140,4,35,8,165000,4,27,440,0.25,24,24,,fpr_ship_bp,,0.5,2,3,
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 #Akoya Interstellar Industries,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
