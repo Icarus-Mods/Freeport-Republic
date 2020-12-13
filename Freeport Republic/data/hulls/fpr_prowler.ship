@@ -1,0 +1,197 @@
+{
+  "hullName": "Prowler",
+  "hullId": "fpr_prowler",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/fpr_prowler.png",
+  "style": "KILLIA_DRIVE_YARDS",
+  "height": 119,
+  "width": 86,
+  "center": [43, 59.5],
+  "collisionRadius": 80,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 76.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "fpr_AkoyaEngines"
+  ],
+  "builtInWeapons": {
+    "Vector 2": "fpr_vector",
+    "Vector1": "fpr_vector",
+    "Vector3": "fpr_vector",
+    "Vector4": "fpr_vector",
+    "Vector5": "fpr_vector",
+    "Vector6": "fpr_vector",
+    "WS0004": "fpr_tigerfish_tubes_prowler"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-9, 28]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [-9, -28]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-22.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [36.75, -0]
+    },
+    {
+      "id": "Vector1",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [50.5, 5.5]
+    },
+    {
+      "id": "Vector 2",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [50.5, -5.5]
+    },
+    {
+      "id": "Vector4",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [18, -18.5]
+    },
+    {
+      "id": "Vector3",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [18, 18.5]
+    },
+    {
+      "id": "Vector6",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-25, -40.5]
+    },
+    {
+      "id": "Vector5",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-25, 40.5]
+    },
+    {
+      "id": "System1",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [57, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-36, 16],
+      "length": 22,
+      "width": 14,
+      "angle": 180,
+      "contrailSize": 14,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_CORE"
+    },
+    {
+      "location": [-36, -16],
+      "length": 22,
+      "width": 14,
+      "angle": -180,
+      "contrailSize": 14,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_CORE"
+    },
+    {
+      "location": [-56.5, -0],
+      "length": 24,
+      "width": 23,
+      "angle": 180,
+      "contrailSize": 23,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_CORE"
+    },
+    {
+      "location": [-36, 16],
+      "length": 40.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_LARGE_BLUE"
+    },
+    {
+      "location": [-36, -16],
+      "length": 40.5,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_LARGE_BLUE"
+    },
+    {
+      "location": [-56.5, -0],
+      "length": 67,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_LARGE_BLUE"
+    }
+  ],
+  "bounds": [
+    -59.5, -7.5,
+    -37, -16.5,
+    -39, -42,
+    -2.5, -41.5,
+    3.5, -23,
+    55, -12,
+    55, 12,
+    3.5, 23,
+    -2.5, 41.5,
+    -39, 42,
+    -37, 16.5,
+    -59.5, 7.5
+  ]
+}

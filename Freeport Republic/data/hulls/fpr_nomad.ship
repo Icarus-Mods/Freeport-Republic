@@ -1,0 +1,144 @@
+{
+  "hullName": "Nomad",
+  "hullId": "fpr_nomad",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/fpr_nomad.png",
+  "style": "KILLIA_DRIVE_YARDS",
+  "height": 183,
+  "width": 126,
+  "center": [63, 91.5],
+  "collisionRadius": 128,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 126.5,
+  "viewOffset": 0,
+  "builtInWeapons": {
+    "WS0003": "fpr_vector",
+    "WS0004": "fpr_vector",
+    "WS0005": "fpr_vector",
+    "WS0006": "fpr_vector",
+    "WS0007": "fpr_vector",
+    "WS0008": "fpr_vector"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 0,
+      "locations": [56.5, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 180,
+      "locations": [-27.5, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [83, 6.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -0,
+      "locations": [83, -6.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [73, -37.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [73, 37.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-65, -17.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-65, 17.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-74, 14],
+      "length": 25,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_SMALL_BLUE"
+    },
+    {
+      "location": [-74, -14],
+      "length": 25,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_SMALL_BLUE"
+    },
+    {
+      "location": [-84.5, -0],
+      "length": 20,
+      "width": 22,
+      "angle": 180,
+      "contrailSize": 22,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_CORE"
+    },
+    {
+      "location": [-84.5, -0],
+      "length": 53,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_LARGE_BLUE"
+    }
+  ],
+  "bounds": [
+    -88.5, -18,
+    18.5, -22.5,
+    23.5, -42,
+    86.5, -41.5,
+    86.5, 41.5,
+    23.5, 42,
+    18.5, 22.5,
+    -88.5, 18
+  ]
+}
