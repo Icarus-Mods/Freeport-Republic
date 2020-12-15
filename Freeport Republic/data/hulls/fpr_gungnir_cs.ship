@@ -12,9 +12,10 @@
   "shieldRadius": 170,
   "viewOffset": 0,
   "builtInMods": [
-    "fpr_AkoyaEngines",
     "targetingunit",
-    "armoredweapons"
+    "armoredweapons",
+    "fpr_ExplorariumHullShielding",
+    "fpr_LaunchCatapult"
   ],
   "builtInWeapons": {
     "Vector1": "fpr_vector",

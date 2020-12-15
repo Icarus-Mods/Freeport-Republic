@@ -3,7 +3,7 @@
   "hullId": "fpr_sleipnir_p",
   "displayName": "Raider",
   "goalVariant": false,
-  "fluxCapacitors": 5,
+  "fluxCapacitors": 1,
   "fluxVents": 6,
   "quality": 1,
   "permaMods": [],
@@ -15,11 +15,12 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "vulcan",
-        "WS0002": "vulcan",
+        "WS0001": "fpr_t96_pd_cannon",
+        "WS0002": "fpr_t96_pd_cannon",
         "WS0003": "arbalest",
         "WS0004": "annihilator_fighter",
-        "WS0005": "annihilator"
+        "WS0005": "annihilator",
+        "WS0007": "lightac"
       }
     },
     {

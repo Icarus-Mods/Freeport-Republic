@@ -12,9 +12,9 @@
   "shieldRadius": 170,
   "viewOffset": 0,
   "builtInMods": [
-    "fpr_AkoyaEngines",
     "targetingunit",
-    "armoredweapons"
+    "armoredweapons",
+    "fpr_ExplorariumHullShielding"
   ],
   "builtInWeapons": {
     "BowDeco": "fpr_gungnir_deco",

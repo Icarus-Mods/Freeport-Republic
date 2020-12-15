@@ -3,7 +3,7 @@
   "hullId": "fpr_sleipnir",
   "displayName": "Strike",
   "goalVariant": false,
-  "fluxCapacitors": 20,
+  "fluxCapacitors": 17,
   "fluxVents": 6,
   "quality": 1,
   "permaMods": [],
@@ -15,7 +15,8 @@
       "autofire": false,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0003": "heavyac"
+        "WS0003": "heavyac",
+        "WS0007": "fpr_t96_pd_cannon"
       }
     },
     {

@@ -14,7 +14,7 @@
   "builtInMods": [
     "ecm",
     "hiressensors",
-    "fpr_AkoyaEngines"
+    "fpr_ExplorariumHullShielding"
   ],
   "builtInWeapons": {
     "Vector01": "fpr_vector",

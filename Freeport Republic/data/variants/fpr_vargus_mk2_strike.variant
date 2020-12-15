@@ -3,7 +3,7 @@
   "hullId": "fpr_vargus_mk2",
   "displayName": "Strike",
   "goalVariant": false,
-  "fluxCapacitors": 20,
+  "fluxCapacitors": 14,
   "fluxVents": 1,
   "quality": 1,
   "permaMods": [],
@@ -15,9 +15,9 @@
       "autofire": true,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0001": "vulcan",
-        "WS0002": "vulcan",
-        "WS0003": "vulcan"
+        "WS0001": "lightdualac",
+        "WS0002": "lightdualac",
+        "WS0003": "fpr_t96_pd_cannon"
       }
     },
     {
@@ -35,7 +35,7 @@
   ],
   "modules": [],
   "wings": [
-    "fpr_rifter_wing",
-    "fpr_rifter_wing"
+    "fpr_leo_wing",
+    "fpr_leo_wing"
   ]
 }

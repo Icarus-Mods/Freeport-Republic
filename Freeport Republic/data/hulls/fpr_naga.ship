@@ -12,7 +12,7 @@
   "shieldRadius": 109,
   "viewOffset": 0,
   "builtInMods": [
-    "fpr_AkoyaEngines"
+    "fpr_ExplorariumHullShielding"
   ],
   "builtInWeapons": {
     "WS0009": "fpr_tigerfish_tubes_left",

@@ -3,7 +3,7 @@
   "hullId": "fpr_sleipnir",
   "displayName": "Standard",
   "goalVariant": false,
-  "fluxCapacitors": 20,
+  "fluxCapacitors": 15,
   "fluxVents": 6,
   "quality": 1,
   "permaMods": [],
@@ -15,7 +15,8 @@
       "autofire": false,
       "mode": "ALTERNATING",
       "weapons": {
-        "WS0003": "arbalest"
+        "WS0003": "arbalest",
+        "WS0007": "lightdualac"
       }
     },
     {

@@ -4,7 +4,7 @@ import com.fs.starfarer.api.combat.MutableShipStatsAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 import com.fs.starfarer.api.impl.hullmods.BaseLogisticsHullMod;
 
-public class AkoyaEnginesDegraded extends BaseLogisticsHullMod {
+public class fpr_AkoyaEnginesDegraded extends BaseLogisticsHullMod {
 
 	public static final float PROFILE_MULT = 0.8f;
 	public static final float HEALTH_BONUS = 70f;

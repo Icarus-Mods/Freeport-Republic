@@ -4,7 +4,7 @@
   "displayName": "Standard",
   "goalVariant": false,
   "fluxCapacitors": 10,
-  "fluxVents": 13,
+  "fluxVents": 15,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
@@ -16,16 +16,15 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0002": "hephag"
+        "WS0001": "fpr_t96_pd_cannon",
+        "WS0002": "autopulse",
+        "WS0003": "fpr_t96_pd_cannon"
       }
     },
     {
       "autofire": true,
       "mode": "LINKED",
-      "weapons": {
-        "WS0001": "lightdualmg",
-        "WS0003": "lightdualmg"
-      }
+      "weapons": {}
     }
   ],
   "modules": [],

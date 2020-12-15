@@ -53,6 +53,6 @@
   ],
   "modules": [],
   "wings": [
-			"talon_wing"
+    "talon_wing"
   ]
 }

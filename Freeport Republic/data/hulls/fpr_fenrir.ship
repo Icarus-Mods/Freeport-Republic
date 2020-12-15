@@ -12,7 +12,7 @@
   "shieldRadius": 143,
   "viewOffset": 0,
   "builtInMods": [
-    "fpr_AkoyaEngines"
+    "fpr_ExplorariumHullShielding"
   ],
   "builtInWeapons": {
     "WSBI01": "fpr_cruiser_trident_launcher_left",

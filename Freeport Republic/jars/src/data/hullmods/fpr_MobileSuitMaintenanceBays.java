@@ -11,7 +11,7 @@ public class fpr_MobileSuitMaintenanceBays extends BaseHullMod {
 
     @Override
     public void applyEffectsToFighterSpawnedByShip(ShipAPI fighter, ShipAPI ship, String id) {
-        if (fighter.getHullSpec().hasTag("Mobile_Suit")) {
+        if (fighter.getHullSpec().hasTag("mobile_suit")) {
             fighter.getMutableStats().getEmpDamageTakenMult().modifyMult(id, empMult);
             fighter.getMutableStats().getEngineDamageTakenMult().modifyMult(id, engineDmgMult);
             fighter.getMutableStats().getWeaponDamageTakenMult().modifyMult(id, weaponsDmgMult);

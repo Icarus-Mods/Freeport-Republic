@@ -11,6 +11,9 @@
   "shieldCenter": [0, 0],
   "shieldRadius": 126.5,
   "viewOffset": 0,
+  "builtInMods": [
+    "fpr_ExplorariumHullShielding"
+  ],
   "builtInWeapons": {
     "WS0003": "fpr_vector",
     "WS0004": "fpr_vector",

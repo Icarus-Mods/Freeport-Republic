@@ -12,7 +12,7 @@
   "shieldRadius": 69,
   "viewOffset": 0,
   "builtInMods": [
-    "fpr_AkoyaEngines"
+    "fpr_ExplorariumHullShielding"
   ],
   "builtInWings": [
     "fpr_hel_wing",

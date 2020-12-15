@@ -3,7 +3,7 @@
   "hullId": "fpr_sleipnir_p",
   "displayName": "Standard",
   "goalVariant": false,
-  "fluxCapacitors": 5,
+  "fluxCapacitors": 0,
   "fluxVents": 6,
   "quality": 1,
   "permaMods": [],
@@ -16,7 +16,8 @@
       "mode": "LINKED",
       "weapons": {
         "WS0001": "lightdualmg",
-        "WS0002": "lightdualmg"
+        "WS0002": "lightdualmg",
+        "WS0007": "lightdualmg"
       }
     },
     {

@@ -12,7 +12,8 @@
   "shieldRadius": 143,
   "viewOffset": 0,
   "builtInMods": [
-    "AkoyaEnginesDegraded"
+    "AkoyaEnginesDegraded",
+    "fpr_ExplorariumHullShielding"
   ],
   "builtInWeapons": {
     "WSBI01": "fpr_cruiser_tomahawk_launcher_left",

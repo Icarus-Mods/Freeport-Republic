@@ -14,7 +14,7 @@
   "viewOffset": 0,
   "builtInMods": [
     "pointdefenseai",
-    "fpr_AkoyaEngines"
+    "fpr_ExplorariumHullShielding"
   ],
   "builtInWeapons": {
     "WSBI01": "fpr_harpy_upper_trident_launcher_left",
