@@ -12,7 +12,6 @@
   "shieldRadius": 101,
   "viewOffset": 0,
   "builtInMods": [
-    "AkoyaEnginesDegraded",
     "fpr_ExplorariumHullShielding",
     "fpr_LaunchCatapult"
   ],

@@ -12,7 +12,6 @@
   "shieldRadius": 143,
   "viewOffset": 0,
   "builtInMods": [
-    "AkoyaEnginesDegraded",
     "fpr_ExplorariumHullShielding"
   ],
   "builtInWeapons": {
