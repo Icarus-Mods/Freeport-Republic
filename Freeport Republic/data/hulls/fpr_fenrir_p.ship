@@ -2,7 +2,7 @@
   "hullName": "Fenrir (P)",
   "hullId": "fpr_fenrir_p",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/ships/fpr_fenrir_p.png",
+  "spriteName": "graphics/ships/pirates/fpr_fenrir_p.png",
   "style": "KILLIA_DRIVE_YARDS",
   "height": 260,
   "width": 126,

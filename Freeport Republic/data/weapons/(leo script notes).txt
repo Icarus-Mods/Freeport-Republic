@@ -1,4 +1,0 @@
-Add this:
-  "everyFrameEffect": "data.scripts.weapons.Diableavionics_strifeEffect",
-Below the line:
-  "size": "SMALL",

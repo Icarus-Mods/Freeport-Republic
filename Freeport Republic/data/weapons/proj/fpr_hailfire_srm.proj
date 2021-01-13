@@ -1,26 +1,28 @@
 {
-	"id":"tigerfish_mirv_warhead",
+	"id":"fpr_hailfire_srm",
 	"specClass":"missile",	
-	#"missileType":"MISSILE",
-	"missileType":"MISSILE_TWO_STAGE_SECOND_UNGUIDED",
-	"sprite":"graphics/missiles/fpr_tigerfish_MIRV_warhead.png",
-	"size":[3,6],	
-	"center":[1.5,3],
-	"collisionRadius":6,
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/fpr_hailfire_swarm_missile.png",
+	"size":[6,10],	
+	"center":[3,5],
+	"collisionRadius":10,
 	"collisionClass":"MISSILE_NO_FF",
-	"explosionColor":[26,65,175,255],  # purely visual, will get a white additively blended core on top of this color
-	"explosionRadius":55, # purely visual
-	"maxFlightTime":5,	
-	"engineSpec":{"turnAcc":1000,
-				  "turnRate":500,
-				  "maxSpeed":400,
-				  "acc":800,
-				  "dec":0},
+	"explosionColor":[255,165,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":100, # purely visual
+	"fadeTime":1, # fadeout duration
+	"engineSpec":{"turnAcc":1720,
+				  "turnRate":240,
+				  "acc":2500,
+				  "dec":800},
+	#"engineSpec":{"turnAcc":240,
+	#			  "turnRate":120,
+	#			  "acc":400,
+	#			  "dec":400},				  
 	"engineSlots":[{"id":"ES1",
-					"loc":[0, 0],
+					"loc":[-5, 0],
 				    #"style":"MISSILE_MIDLINE",
 				    "style":"CUSTOM",
-				    "styleSpec":{
+					"styleSpec":{
 						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
 						"engineColor":[26,65,175,255],
 						"contrailDuration":2,

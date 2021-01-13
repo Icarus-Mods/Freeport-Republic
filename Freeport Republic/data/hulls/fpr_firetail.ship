@@ -1,0 +1,95 @@
+{
+  "hullName": "Type-15 Firetail",
+  "hullId": "fpr_firetail",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/fpr_firetail.png",
+  "style": "KILLIA_DRIVE_YARDS",
+  "height": 35,
+  "width": 32,
+  "center": [16, 17.5],
+  "collisionRadius": 21,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 20,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [10, 1.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -0,
+      "locations": [10, -1.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [15.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-10.5, 8.5],
+      "length": 8,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_FIGHTER_THRUSTER"
+    },
+    {
+      "location": [-10.5, -8.5],
+      "length": 8,
+      "width": 4,
+      "angle": -180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_FIGHTER_THRUSTER"
+    },
+    {
+      "location": [-12, 2.5],
+      "length": 15.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_FIGHTER_ENGINE"
+    },
+    {
+      "location": [-12, -2.5],
+      "length": 15.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_FIGHTER_ENGINE"
+    }
+  ],
+  "bounds": [
+    -16.5, -2,
+    -12, -5,
+    -11.5, -11,
+    -1, -16,
+    1, -6,
+    17, -2.5,
+    17, 2.5,
+    1, 6,
+    -1, 16,
+    -11.5, 11,
+    -12, 5,
+    -16.5, 2
+  ]
+}

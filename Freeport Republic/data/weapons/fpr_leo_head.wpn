@@ -1,11 +1,11 @@
 {
   "id": "fpr_leo_head",
   "specClass": "projectile",
-  "projectileSpecId": "vulcan_shot",
+  "projectileSpecId": "fpr_hm12_chaingun_shot",
   "type": "BALLISTIC",
   "size": "MEDIUM",
   "displayArcRadius": 250,
-  "turretSprite": "graphics/ships/fighters/FE-06MS Leo/fpr_leo_head.png",
+  "turretSprite": "graphics/ships/farstar/fighters/FM-06MS Leo/fpr_leo_head.png",
   "hardpointSprite": "",
   "renderAboveAllWeapons": 0,
   "turretOffsets": [

@@ -5,8 +5,8 @@
   "type": "BALLISTIC",
   "size": "SMALL",
   "everyFrameEffect": "data.scripts.weapons.fpr_MS_RifleEffect",
-  "turretSprite": "graphics/ships/fighters/FE-06MS Leo/fpr_leo_heavyautorifle.png",
-  "hardpointSprite": "graphics/ships/fighters/FE-06MS Leo/fpr_leo_heavyautorifle.png",
+  "turretSprite": "graphics/ships/farstar/fighters/FM-06MS Leo/fpr_leo_heavyautorifle.png",
+  "hardpointSprite": "graphics/ships/farstar/fighters/FM-06MS Leo/fpr_leo_heavyautorifle.png",
   "renderAboveAllWeapons": 0,
   "specialWeaponGlowHeight": 20,
   "specialWeaponGlowWidth": 10,
@@ -34,12 +34,7 @@
     "particleSizeRange": 14,
     "particleDuration": 0.04,
     "particleCount": 8,
-    "particleColor": [
-      231,
-      155,
-      38,
-      215
-    ]
+    "particleColor": [231,155,38,215]
   },
   "textureType": ROUGH,
   "fireSoundTwo": "light_mortar_fire"

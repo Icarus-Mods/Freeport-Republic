@@ -1,7 +1,7 @@
 {
   "id": "fpr_tigerfish_tubes_left",
   "specClass": "projectile",
-  "projectileSpecId": "tigerfish_mirv",
+  "projectileSpecId": "fpr_tigerfish_mirv",
   "type": "MISSILE",
   "size": "MEDIUM",
   "displayArcRadius": 300,

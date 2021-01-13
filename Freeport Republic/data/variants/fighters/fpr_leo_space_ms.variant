@@ -1,0 +1,36 @@
+{
+  "variantId": "fpr_leo_space_ms",
+  "hullId": "fpr_leo_space",
+  "displayName": "Mobile Suit",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "R_BEAMRIFLE": "fpr_leo_space_beamrifle"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "HEAD": "fpr_leo_space_head"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "L_SHOULDER": "fpr_leo_space_shoulder_left"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

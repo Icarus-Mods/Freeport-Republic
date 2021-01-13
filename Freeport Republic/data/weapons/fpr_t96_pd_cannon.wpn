@@ -1,7 +1,7 @@
 {
   "id": "fpr_t96_pd_cannon",
   "specClass": "projectile",
-  "projectileSpecId": "vulcan_shot",
+  "projectileSpecId": "fpr_chaingun_shot",
   "type": "BALLISTIC",
   "size": "SMALL",
   "displayArcRadius": 250,
@@ -34,21 +34,16 @@
     0,
     0
   ],
-  "barrelMode": "ALTERNATING",
+  "barrelMode": "LINKED",
   "animationType": "MUZZLE_FLASH",
   "muzzleFlashSpec": {
-    "length": 20,
+    "length": 10,
     "spread": 6,
-    "particleSizeMin": 6,
-    "particleSizeRange": 8,
+    "particleSizeMin": 4,
+    "particleSizeRange": 6,
     "particleDuration": 0.15,
-    "particleCount": 7,
-    "particleColor": [
-      255,
-      240,
-      165,
-      200
-    ]
+    "particleCount": 5,
+    "particleColor": [231, 155, 38, 215]
   },
   "textureType": ROUGH,
   "fireSoundTwo": "vulcan_cannon_fire"

@@ -2,7 +2,7 @@
   "hullName": "Sleipnir (P)",
   "hullId": "fpr_sleipnir_p",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/ships/fpr_sleipnir_p.png",
+  "spriteName": "graphics/ships/pirates/fpr_sleipnir_p.png",
   "style": "KILLIA_DRIVE_YARDS",
   "height": 199,
   "width": 148,

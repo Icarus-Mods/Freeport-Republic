@@ -1,5 +1,5 @@
 {
-	"id":"tigerfish_mirv_empty",
+	"id":"fpr_tigerfish_mirv_empty",
 	"specClass":"missile",	
 	"missileType":"NO_AI",
 	"sprite":"graphics/missiles/fpr_tigerfish_MIRV_empty.png",

@@ -1,0 +1,30 @@
+{
+  "id": "fpr_leo_space_beamrifle",
+  "specClass": "projectile",
+  "projectileSpecId": "fpr_fa44_beamrifle_shot",
+  "type": "ENERGY",
+  "size": "SMALL",
+  "everyFrameEffect": "data.scripts.weapons.fpr_MS_RifleEffect",
+  "turretSprite": "graphics/ships/farstar/fighters/FM-06MS Leo Space Type/fpr_leo_space_beamrifle.png",
+  "hardpointSprite": "graphics/ships/farstar/fighters/FM-06MS Leo Space Type/fpr_leo_space_beamrifle.png",
+  "renderAboveAllWeapons": 0,
+  "specialWeaponGlowHeight": 20,
+  "specialWeaponGlowWidth": 10,
+  "turretOffsets": [25.5,-14.5],
+  "turretAngleOffsets": [0.5],
+  "hardpointOffsets": [41,-14.5],
+  "hardpointAngleOffsets": [0.5],
+  "barrelMode": "LINKED",
+	#"animationType":"GLOW",
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":15.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":10.0,
+					   "particleSizeMin":10.0,
+					   "particleSizeRange":12.0,
+					   "particleDuration":0.12,
+					   "particleCount":6,
+					   "particleColor":[255,237,79,200]},	
+	"autocharge":true,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"requiresFullCharge":false,  # for pulse weapons - whether the weapon will fire at a lower strength partial charge
+	"fireSoundTwo":"heavy_blaster_fire",
+}

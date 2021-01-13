@@ -2,7 +2,7 @@
   "hullName": "Murasame",
   "hullId": "fpr_murasame",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/ships/fpr_murasame.png",
+  "spriteName": "graphics/ships/akoya/fpr_murasame.png",
   "style": "HIGH_TECH",
   "height": 284,
   "width": 112,

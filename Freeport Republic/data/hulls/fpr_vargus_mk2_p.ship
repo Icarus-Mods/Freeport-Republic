@@ -2,7 +2,7 @@
   "hullName": "Vargus Mk.II (P)",
   "hullId": "fpr_vargus_mk2_p",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/ships/fpr_vargus_mk2_p.png",
+  "spriteName": "graphics/ships/pirates/fpr_vargus_mk2_p.png",
   "style": "KILLIA_DRIVE_YARDS",
   "height": 191,
   "width": 98,

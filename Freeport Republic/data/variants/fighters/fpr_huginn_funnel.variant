@@ -1,0 +1,22 @@
+{
+  "variantId": "fpr_huginn_funnel",
+  "hullId": "fpr_huginn",
+  "displayName": "Funnel",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "fpr_micro_particle_lance"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

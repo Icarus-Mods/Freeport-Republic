@@ -1,0 +1,64 @@
+{
+  "hullName": "Type-07 Huginn",
+  "hullId": "fpr_huginn",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/fpr_huginn_funnel.png",
+  "style": "KILLIA_DRIVE_YARDS",
+  "height": 21,
+  "width": 10,
+  "center": [5, 10.5],
+  "collisionRadius": 12.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 11.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [9.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-8.5, -0],
+      "length": 10,
+      "width": 4,
+      "angle": 180,
+      "contrailSize": 4,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_FIGHTER_ENGINE"
+    },
+    {
+      "location": [-7.5, 1.5],
+      "length": 4,
+      "width": 2,
+      "angle": 153.5,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_FIGHTER_THRUSTER"
+    },
+    {
+      "location": [-7.5, -1.5],
+      "length": 4,
+      "width": 2,
+      "angle": -153.5,
+      "contrailSize": 2,
+      "style": "CUSTOM",
+      "styleId": "KILLIA_FIGHTER_THRUSTER"
+    }
+  ],
+  "bounds": [
+    -9.5, -2.5,
+    -1.5, -4.5,
+    2.5, -2.5,
+    10, -1,
+    10, 1,
+    2.5, 2.5,
+    -1.5, 4.5,
+    -9.5, 2.5
+  ]
+}

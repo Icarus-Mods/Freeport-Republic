@@ -24,6 +24,6 @@
 				 "blowbackLength":15.0,
 				 "blowbackSpread":5.0,
 				 "particleColor":[100,100,100,200]},
-	"projectileSpecId":"tigerfish_mirv",
+	"projectileSpecId":"fpr_tigerfish_mirv",
 	"fireSoundTwo":"hurricane_mirv_fire",
 }

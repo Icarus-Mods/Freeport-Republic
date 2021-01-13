@@ -1,7 +1,7 @@
 {
-  "variantId": "fpr_rifter_interceptor",
+  "variantId": "fpr_rifter_fighter",
   "hullId": "fpr_rifter",
-  "displayName": "Interceptor",
+  "displayName": "Fighter",
   "goalVariant": false,
   "fluxCapacitors": 0,
   "fluxVents": 0,
@@ -13,15 +13,17 @@
       "autofire": true,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "swarmer_fighter",
-        "WS0002": "swarmer_fighter",
-        "WS0004": "vulcan"
+        "WS0003": "fpr_hm12_chaingun",
+        "WS0004": "fpr_hm12_chaingun"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {}
+      "weapons": {
+        "WS0001": "fpr_hailfire_swarmer_fighter",
+        "WS0002": "fpr_hailfire_swarmer_fighter"
+      }
     }
   ],
   "modules": [],
