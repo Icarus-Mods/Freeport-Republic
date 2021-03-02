@@ -16,6 +16,7 @@
 		"fx": {
 			"fpr_SensorBurst": "graphics/fx/fpr_SensorBurst.png",
 			"fpr_CommandUplink": "graphics/fx/fpr_CommandUplink.png",
+			"fpr_stasisMark": "graphics/fx/fpr_stasisMark.png",
 		}
 	}
 }

@@ -20,6 +20,5 @@
 	"width":1.0,
 	"textureType":ROUGH,
 	"textureScrollSpeed":1.0,
-	"pixelsPerTexel":5.0,	
-	"everyFrameEffect":"data.scripts.weapons.fpr_VectorThrusterWithSmoke",
+	"pixelsPerTexel":5.0,
 }

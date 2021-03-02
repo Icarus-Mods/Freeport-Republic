@@ -15,16 +15,17 @@
     "fpr_ExplorariumHullShielding"
   ],
   "builtInWeapons": {
+    "FRONT_LEFT": "fpr_vector",
+    "FRONT_RIGHT": "fpr_vector",
+    "LEFT_FRONT": "fpr_vector",
+    "LEFT_REAR": "fpr_vector",
+    "RIGHT_FRONT": "fpr_vector",
+    "RIGHT_REAR": "fpr_vector",
+	"SCRIPTS": "fpr_thrusterController",
     "WSBI01": "fpr_cruiser_trident_launcher_left",
     "WSBI02": "fpr_cruiser_trident_launcher_right",
     "WSD001": "fpr_fenrir_deco_right",
-    "WSD002": "fpr_fenrir_deco_left",
-    "WST001": "fpr_vector",
-    "WST002": "fpr_vector",
-    "WST003": "fpr_vector",
-    "WST004": "fpr_vector",
-    "WST005": "fpr_vector",
-    "WST006": "fpr_vector"
+    "WSD002": "fpr_fenrir_deco_left"
   },
   "weaponSlots": [
     {
@@ -113,7 +114,7 @@
       "locations": [24.5, -0]
     },
     {
-      "id": "WST001",
+      "id": "LEFT_REAR",
       "size": "SMALL",
       "type": "DECORATIVE",
       "mount": "TURRET",
@@ -122,7 +123,7 @@
       "locations": [-60.5, 59.5]
     },
     {
-      "id": "WST002",
+      "id": "RIGHT_REAR",
       "size": "SMALL",
       "type": "DECORATIVE",
       "mount": "TURRET",
@@ -131,7 +132,7 @@
       "locations": [-60.5, -59.5]
     },
     {
-      "id": "WST003",
+      "id": "LEFT_FRONT",
       "size": "SMALL",
       "type": "DECORATIVE",
       "mount": "TURRET",
@@ -140,7 +141,7 @@
       "locations": [84.5, 22.5]
     },
     {
-      "id": "WST004",
+      "id": "RIGHT_FRONT",
       "size": "SMALL",
       "type": "DECORATIVE",
       "mount": "TURRET",
@@ -149,7 +150,7 @@
       "locations": [84.5, -22.5]
     },
     {
-      "id": "WST005",
+      "id": "FRONT_LEFT",
       "size": "SMALL",
       "type": "DECORATIVE",
       "mount": "TURRET",
@@ -158,7 +159,7 @@
       "locations": [125, 6.5]
     },
     {
-      "id": "WST006",
+      "id": "FRONT_RIGHT",
       "size": "SMALL",
       "type": "DECORATIVE",
       "mount": "TURRET",
@@ -183,6 +184,15 @@
       "arc": 0,
       "angle": 0,
       "locations": [92, -14.5]
+    },
+    {
+      "id": "SCRIPTS",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, -0]
     }
   ],
   "engineSlots": [
